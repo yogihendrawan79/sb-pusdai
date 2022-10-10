@@ -1,0 +1,816 @@
+/* ----- Navbar ----- */
+body {
+  overflow-x: hidden;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-item .nav-link {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  color: #161616 !important;
+}
+.nav-item .nav-link:hover {
+  color: #2e4350 !important;
+}
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-bottom: 2px solid;
+  color: #6a9fa7 !important;
+  border-radius: 5px;
+}
+.navbar-nav > li > a:hover {
+  border-bottom: 2px solid;
+  color: #151d3b !important;
+}
+/* .navbar-brand{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 15px;
+  color: #6A9FA7 !important;
+  font-weight: 600;
+} */
+.navbar-span-color {
+  color: #db6040;
+}
+.logo-navbar {
+  width: 150px;
+  height: 52px;
+}
+.main-navigation {
+  box-shadow: rgba(14, 146, 107, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* ----- Navbar ----- */
+
+.header-wraper {
+  margin-top: 250px;
+}
+.header-judul-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.header-sub-judul-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.header-span-color {
+  color: #161616;
+}
+.header-judul-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #999999;
+}
+.header-sub-judul-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #161616;
+}
+.button-header {
+  background-color: #6a9fa7;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  transition: all 0.35s;
+}
+.button-header:hover {
+  background-color: #2e4350;
+}
+.logo-header {
+  width: 644px;
+  height: 431px;
+}
+
+.logo-statistik {
+  width: 64px;
+  height: 64px;
+}
+.statistik-tamu-wraper {
+  margin-top: 200px;
+}
+.statistik-span-color {
+  color: #161616;
+}
+.statistik-tamu-judul-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.card-statistik-wraper {
+  margin-top: 100px;
+}
+.card-statistik {
+  padding: 10px 0px;
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding-inline: 30px;
+  margin: auto;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-statistik-text-judul {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.card-statistik-text-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #161616;
+}
+
+.cara-menggunakan-wraper {
+  margin-top: 200px;
+}
+.cara-menggunakan-judul-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.cara-menggunakan-judul-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #999999;
+  padding-inline: 30%;
+}
+.cara-menggunakan-span-color {
+  color: #161616;
+}
+.card-cara-wraper {
+  margin-top: 100px;
+}
+
+.card-cara {
+  padding: 10px 0px;
+  width: 60%;
+  height: 40vh;
+  margin-top: 20px;
+  background-color: #6a9fa7;
+  border-radius: 20px;
+  position: relative;
+  padding-inline: 20px;
+  margin: auto;
+  margin-top: 20px;
+}
+.card-cara-content {
+  padding: 10px 0px;
+  width: 90%;
+  height: 43vh;
+  background: linear-gradient(#92f8ff -100%, #1e1c24 90%);
+  border-radius: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.card-cara-content-side {
+  padding: 10px 0px;
+  background-color: #1c1e24;
+  width: 100%;
+  border-radius: 20px;
+  height: 40vh;
+  margin-top: -10px;
+}
+.card-cara-content-side-judul-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: white;
+}
+.button-card-cara-content-side-wraper {
+  margin-top: 100px;
+}
+.button-card-cara-content-side {
+  background-color: #6a9fa7;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  transition: all 0.35s;
+}
+.button-card-cara-content-side:hover {
+  background-color: #2e4350;
+}
+.card-cara-judul-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+.card-cara-judul-text-wraper {
+  padding-inline: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.button-card-cara-wraper {
+  position: relative;
+  left: -20px;
+  margin-top: 20px;
+}
+.button-card-cara {
+  background-color: #1c1e24;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 20px;
+  transition: all 0.35s;
+}
+.button-card-cara:hover {
+  background-color: #2e4350;
+}
+.gambar-cara-wraper {
+  padding-inline: 30px;
+}
+
+.logo-substract {
+  width: 250px;
+  height: 600px;
+  margin-left: -40px;
+}
+.logo-substract-side {
+  width: 600px;
+  height: 200px;
+}
+.logo-pusdai-putih {
+  width: 170px;
+  height: 60px;
+}
+.logo-line-group {
+  width: 200px;
+  height: 20px;
+}
+.logo-bank {
+  width: 200px;
+  height: 100px;
+}
+.logo-tikomdik {
+  width: 180px;
+  height: 54px;
+}
+.logo-single {
+  width: 58px;
+  height: 57px;
+}
+
+.card-side-about {
+  padding: 10px 0px;
+  width: 100%;
+  background-color: #6a9fa7;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+}
+.card-side-about-text {
+  font-family: "Poppins";
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+.card-side-about-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 600;
+  padding-inline: 10%;
+}
+.color-span-side-about {
+  color: #161616;
+}
+.line-side-about {
+  padding: 1px 0px;
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+.about-wraper {
+  margin-top: 200px;
+}
+/* .about-content-wraper{
+  padding: 10px 0px;
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+.about-content-margin {
+  margin-top: 100px;
+}
+.about-judul-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.about-gambar-wraper {
+  margin-top: 100px;
+}
+.about-span-color {
+  color: #161616;
+}
+.card-text-about-wraper {
+  margin-top: 100px;
+}
+.card-text-about {
+  padding: 10px 0px;
+  width: 100%;
+  margin: auto;
+}
+.card-text-about-judul {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #6a9fa7;
+  font-weight: 600;
+}
+.card-text-about-judul:hover {
+  color: #161616;
+}
+.card-text-about-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #999999;
+  font-weight: 600;
+}
+.gambar-card-buku-tamu {
+  margin-top: -10px;
+}
+.gambar-card-buku-tamu-side {
+  margin-bottom: -20px;
+}
+.card-buku-tamu-wraper {
+  margin-top: 20px;
+}
+.card-buku-tamu {
+  padding: 10px 0px;
+  background-color: #6a9fa7;
+  width: 100%;
+  border-radius: 20px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.judul-card-buku-tamu-wraper {
+  margin-top: 200px;
+}
+.card-buku-tamu-text-judul {
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+}
+.card-buku-tamu-color-span {
+  color: #161616;
+}
+.card-buku-tamu-text-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: white;
+}
+
+.gallery-wraper {
+  margin-top: 200px;
+}
+.gallery-content-wraper {
+  margin-top: 100px;
+}
+.gallery-text-judul {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.gallery-text-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #999999;
+  font-weight: 600;
+}
+.gallery-gambar-wraper {
+  padding: 10px 0px;
+  margin: auto;
+}
+.gallery-gambar-shape {
+  border-radius: 20px;
+}
+.gallery-span-color {
+  color: #161616;
+}
+
+.footer-wraper {
+  margin-top: 150px;
+}
+.card-footer-wraper {
+  padding: 10px 0px;
+  background-color: #161616;
+  width: 100%;
+}
+.footer-judul-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.footer-judul-text-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: white;
+}
+.footer-span-color {
+  color: white;
+}
+/* ----- form ----- */
+.logo-pudaiijo {
+  width: 170px;
+  height: 60px;
+}
+.form-input-wraper {
+  margin-top: 150px;
+}
+.form-content-wraper {
+  margin-top: 30px;
+}
+.form-input-judul-text {
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.form-input-judul-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #999999;
+}
+
+.form-judul-side-text {
+  font-family: "Poppins";
+  font-size: 70px;
+  font-weight: 600;
+  color: #161616;
+}
+
+.form-paragraph-side-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+.form-text-span-color {
+  color: #6a9fa7;
+}
+
+.card-form-input {
+  padding: 10px 0px;
+  background-color: white;
+  width: 100%;
+  padding-inline: 30px;
+  border-radius: 20px;
+}
+input[type="text-form-input"],
+select {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #6a9fa7;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  border-radius: 10px;
+  font-style: italic;
+}
+input[type="textarea"] {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #db6040;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  border-radius: 10px;
+}
+input[type="date"] {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  border-color: #6a9fa7;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  border-radius: 10px;
+}
+.label-form-input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #6a9fa7;
+  font-weight: 600;
+}
+.card-form-input-side {
+  padding: 10px 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: white;
+  border-radius: 20px;
+  padding-inline: 30px;
+}
+.gambar-form-wraper {
+  margin-top: 170px;
+}
+.gambar-form {
+  border-radius: 20px;
+}
+.form-input-span-color {
+  color: #161616;
+}
+.button-form-input {
+  background-color: #6a9fa7;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  transition: all 0.35s;
+}
+.button-form-input:hover {
+  background-color: #2e4350;
+}
+
+.searchBox {
+  border: none;
+  font-size: 12px;
+  min-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
+/* ----- form ----- */
+
+/* ----- Succes Menambah ----- */
+.success-add-wraper {
+  margin-top: 20px;
+}
+.success-add-judul-text {
+  font-family: "Poppins";
+  font-size: 2vw;
+  font-weight: 600;
+  color: #6a9fa7;
+}
+.success-add-sub-judul {
+  font-family: "Poppins";
+  font-size: 2vw;
+  font-weight: 600;
+  color: #161616;
+}
+.success-add-judul-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+.Success-color-code {
+  color: #31519c;
+  font-family: "Poppins";
+  font-size: 2vw;
+  font-weight: 600;
+}
+.button-success-add {
+  background-color: #00b1af;
+  border: none;
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  transition: all 0.35s;
+}
+.button-success-add:hover {
+  background-color: #6a9fa7;
+}
+/* ----- Succes Menambah ----- */
+
+/* ----- Cek Status ----- */
+.cek-status-wraper {
+  margin-top: 100px;
+}
+.card-cek-status {
+  padding: 10px 0px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  border-radius: 10px;
+}
+.search-cek-wraper {
+  padding-inline: 30px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.label-cek-status {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #6a9fa7;
+  font-weight: 600;
+}
+input[type="search"] {
+  width: 100%;
+  height: 80px;
+  padding: 8px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #6a9fa7;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  color: #ccc;
+  font-weight: 600;
+  font-style: italic;
+}
+.button-cek-status {
+  background-color: #6a9fa7;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 50%;
+  transition: all 0.35s;
+}
+.button-cek-status:hover {
+  background-color: #2e4350;
+}
+
+.card-hasil-status-wraper {
+  margin-top: 50px;
+}
+.card-hasil-status {
+  padding: 10px 0px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+.card-hasil-status-text-wraper {
+  padding-inline: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.card-hasil-status-text-judul {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e1c24;
+}
+.card-hasil-status-text-paragraph {
+  font-family: "Poppins";
+  font-size: 12px;
+  color: #8a8a8a;
+}
+.card-for-status {
+  padding: 10px 0px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  width: 100%;
+}
+.card-for-status-text-judul {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  color: #161616;
+}
+.card-for-status-text-sub-judul {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #00b1af;
+}
+.card-for-status-text-paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #8a8a8a;
+}
+.text-data-not-found {
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 600;
+  color: #161616;
+}
+/* ----- Cek Status ----- */
+
+/* Responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .header-judul-text {
+    font-size: 40px;
+  }
+  .header-sub-judul-text {
+    font-size: 40px;
+  }
+  .header-wraper {
+    margin-top: 200px;
+  }
+  .header-judul-paragraph {
+    padding-inline-end: 60px;
+  }
+  .statistik-tamu-judul-text {
+    font-size: 25px;
+    padding-inline: 20%;
+  }
+  .cara-menggunakan-judul-text {
+    font-size: 25px;
+    padding-inline: 20%;
+  }
+  .card-cara-content-side {
+    height: 25vh;
+  }
+  .card-cara {
+    margin-top: 100px;
+  }
+  .about-judul-text {
+    font-size: 30px;
+    padding-inline: 30%;
+  }
+  .gallery-text-judul {
+    font-size: 30px;
+  }
+  .form-judul-side-text {
+    font-size: 30px;
+  }
+  .form-input-wraper {
+    margin-top: 15px;
+  }
+  .button-card-cara-content-side-wraper {
+    margin-top: 10px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
