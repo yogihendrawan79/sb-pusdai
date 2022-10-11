@@ -8,5 +8,5 @@ export default {
 
 const Template = (args) => <Navbar {...args} />;
 
-export const NavBar = Template.bind({});
-NavBar.args = {};
+export const Header = Template.bind({});
+Header.args = {};
